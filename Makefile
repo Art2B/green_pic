@@ -23,7 +23,7 @@ help: ##prints help
 	@perl -e '${HELP_HELPER}' ${MAKEFILE_LIST}
 
 install: ##@install Install the project's dependeencies
-	@echo "Coming soon"
+	@pip install -r requirements.txt
 
 start: ##@start Start the project
 	@mkdir -p results
