@@ -1,2 +1,4 @@
 # Results folder
 results/
+# Python files
+*.pyc
